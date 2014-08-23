@@ -1,7 +1,7 @@
 
 /**
  * File: GlobalSettingsManager.java
- * <p>
+ * 
  * Description: The utility class for all resources and settings.
  */
 import java.awt.Color;

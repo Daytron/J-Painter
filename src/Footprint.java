@@ -1,7 +1,7 @@
 
 /**
  * File: Footprint.java
- * <p>
+ * 
  * Description: The class responsible for drawing footprint. A utility for all
  * Drawable objects.
  */
@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * Footprint class
- * <p>
+ * 
  * Purpose: Provides the footprint mechanism for all Drawables. A utility 
  * static class that doesn't need to be instantiated, saves memory usage.
  *
@@ -136,6 +136,7 @@ final class Footprint {
         ymin = 0;
         ymax = radius;
 
+        // It starts at point xmin and ymax (0,r) all the way to point xmin and ymin (0,0)
         for (int y = ymax; y >= ymin; y--) {
             for (Integer[] aPoint : newEdgeQuadrant) {
                 if (aPoint[1] == y) {

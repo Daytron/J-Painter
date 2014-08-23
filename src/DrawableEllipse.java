@@ -1,7 +1,7 @@
 
 /**
  * File: DrawableEllipse.java
- * <p>
+ * 
  * Description: The subclass drawing ellipse.
  */
 import java.awt.Color;
@@ -9,7 +9,7 @@ import java.awt.Graphics;
 
 /**
  * DrawableEllipse class
- * <p>
+ * 
  * Purpose: Responsible for drawing the ellipse into the JPanel (Canvas).
  *
  * @author Ryan Gilera <jalapaomaji-github@yahoo.com>

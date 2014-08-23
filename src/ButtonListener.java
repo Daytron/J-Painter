@@ -1,6 +1,6 @@
 /**
  * File: ButtonListener.java
- * <p>
+ * 
  * Description: The class responsible for listening and implementation of any
  * action events like clicking of a button.
  */
@@ -22,10 +22,10 @@ import resources.ResourceLoader;
 
 /**
  * ButtonListener class
- * <p>
+ * 
  * Purpose: The class responsible for the implementation of the action events
  * from the user. Implements the ActionListener interface.
- * <p>
+ * 
  * This includes drawing a Drawable, undoing and redoing Drawable, 
  * clearing the canvas, updating status bar, checks the footprint type and 
  * change to a custom mouse cursor.

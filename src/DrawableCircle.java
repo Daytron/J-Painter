@@ -1,7 +1,7 @@
 
 /**
  * File: DrawableCircle.java
- * <p>
+ * 
  * Description: The subclass drawing circle.
  */
 import java.awt.Color;
@@ -9,7 +9,7 @@ import java.awt.Graphics;
 
 /**
  * DrawableCircle class
- * <p>
+ * 
  * Purpose: Responsible for drawing the circle into the JPanel (Canvas).
  *
  * @author Ryan Gilera <jalapaomaji-github@yahoo.com>

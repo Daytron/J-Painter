@@ -1,7 +1,7 @@
 
 /**
  * File: MenuListener.java
- * <p>
+ * 
  * Description: The class responsible for implementing the JMenu UI components.
  */
 import java.awt.event.ActionEvent;
@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
 
 /**
  * MenuListener class
- * <p>
+ * 
  * Purpose: Implements behaviour for File > New, Edit > Clear and About>about
  * menu items.
  *

@@ -1,7 +1,7 @@
 
 /**
  * File: DrawableTriangle.java
- * <p>
+ * 
  * Description: The subclass drawing triangle.
  */
 import java.awt.Color;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  * DrawableTriangle class
- * <p>
+ * 
  * Purpose: Responsible for drawing the triangle into the JPanel (Canvas).
  *
  * @author Ryan Gilera <jalapaomaji-github@yahoo.com>

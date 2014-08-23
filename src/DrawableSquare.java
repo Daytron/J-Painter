@@ -1,7 +1,7 @@
 
 /**
  * File: DrawableSquare.java
- * <p>
+ * 
  * Description: The subclass drawing square.
  */
 import java.awt.Color;
@@ -11,7 +11,7 @@ import java.util.HashMap;
 
 /**
  * DrawableSquare class
- * <p>
+ * 
  * Purpose: Responsible for drawing the square into the JPanel (Canvas).
  *
  * @author Ryan Gilera <jalapaomaji-github@yahoo.com>

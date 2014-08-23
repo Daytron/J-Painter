@@ -1,7 +1,7 @@
 
 /**
  * File: DrawableArc.java
- * <p>
+ * 
  * Description: The subclass drawing Arc.
  */
 import java.awt.Color;
@@ -9,7 +9,7 @@ import java.awt.Graphics;
 
 /**
  * DrawableArc class
- * <p>
+ * 
  * Purpose: Responsible for drawing the arc into the JPanel (Canvas).
  *
  * @author Ryan Gilera <jalapaomaji-github@yahoo.com>

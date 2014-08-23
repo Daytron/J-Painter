@@ -1,7 +1,7 @@
 
 /**
  * File: Drawable.java
- * <p>
+ * 
  * Description: The superclass for all Drawable subclasses.
  */
 import java.awt.Color;
@@ -9,7 +9,7 @@ import java.awt.Graphics;
 
 /**
  * Drawable class
- * <p>
+ * 
  * Purpose: Holds all object variables similar for all Drawable subclasses. 
  * Defines the an abstract method for all subclasses and other utility methods.
  *

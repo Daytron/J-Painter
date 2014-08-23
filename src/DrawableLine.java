@@ -1,7 +1,7 @@
 
 /**
  * File: DrawableLine.java
- * <p>
+ * 
  * Description: The subclass drawing line.
  */
 import java.awt.Color;
@@ -9,7 +9,7 @@ import java.awt.Graphics;
 
 /**
  * DrawableLine class
- * <p>
+ * 
  * Purpose: Responsible for drawing the line into the JPanel (Canvas).
  *
  * @author Ryan Gilera <jalapaomaji-github@yahoo.com>

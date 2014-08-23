@@ -1,7 +1,7 @@
 
 /**
  * File: UserInterface.java
- * <p>
+ * 
  * Description: The class responsible for building the UI frame, panels and
  * components of the application.
  *
@@ -42,7 +42,7 @@ import javax.swing.WindowConstants;
 
 /**
  * UserInterface class
- * <p>
+ * 
  * Purpose: Implements the Runnable interface to implement its only method
  * run(). This allows to choose what statements will run in the thread.
  *

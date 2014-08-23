@@ -1,7 +1,7 @@
 
 /**
  * File: MousePositionListener.java
- * <p>
+ * 
  * Description: The class responsible for updating and displaying the of the
  * position of the mouse at any point of the application in the MousePosBar
  * JLabel object regardless of any action.
@@ -11,7 +11,7 @@ import java.awt.event.MouseEvent;
 
 /**
  * MousePositionListener class
- * <p>
+ * 
  * Purpose: Grabs the current (x,y) position of the mouse and pass it to the
  * setPosStatus method in the canvas, where it will display the current
  * position.

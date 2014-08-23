@@ -1,7 +1,7 @@
 
 /**
  * File: DrawableImage.java
- * <p>
+ * 
  * Description: The subclass drawing image.
  */
 import java.awt.Color;
@@ -10,7 +10,7 @@ import java.awt.Image;
 
 /**
  * DrawableImage class
- * <p>
+ * 
  * Purpose: Responsible for drawing the image into the JPanel (Canvas).
  *
  * @author Ryan Gilera <jalapaomaji-github@yahoo.com>

@@ -1,7 +1,7 @@
 
 /**
  * File: MouseClickListener.java
- * <p>
+ * 
  * Description: The class responsible for listening and implementing the
  * mouseclick events.
  */
@@ -15,7 +15,7 @@ import java.util.Map;
 
 /**
  * MouseClickListener class
- * <p>
+ * 
  * Purpose: Provides implementation of all mouseclick events involve. The class
  * is a subclass of the MouseAdapter, a class that implements MouseListener,
  * MouseMotionListener and MouseWheelListener.

@@ -1,7 +1,7 @@
 
 /**
  * File: DrawCanvas.java
- * <p>
+ * 
  * Description: The class responsible for drawing Drawable object on the canvas.
  * This class is subclass of the JPanel class.
  */
@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 
 /**
  * DrawCanvas class
- * <p>
+ * 
  * Purpose: Provides the canvas and its drawing mechanism. Updates status bar
  * for all canvas activities. Manage Drawable objects drawn on the canvas.
  *
