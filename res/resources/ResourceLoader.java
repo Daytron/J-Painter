@@ -1,7 +1,7 @@
 
 /**
  * File: ResourceLoader.java
- * <p>
+ * 
  * Description: A utility class for returning the path of the image resources.
  */
 
@@ -12,7 +12,7 @@ import java.awt.Toolkit;
 
 /**
  * ResourceLoader class
- * <p>
+ * 
  * Purpose: Using the Toolkit class, to extract the path of the image
  * resources.
  * 
