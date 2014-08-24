@@ -25,3 +25,9 @@ toolImage.png
 toolPencil.png
 toolRedo.png
 toolUndo.png
+
+# xml #
+build.xml
+
+manifest.mf
+nbproject/
