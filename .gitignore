@@ -26,8 +26,10 @@ toolPencil.png
 toolRedo.png
 toolUndo.png
 
-# xml #
+# netbeans files #
 build.xml
-
 manifest.mf
-nbproject/
+
+# folders #
+/nbproject/
+/dist/
