@@ -33,3 +33,4 @@ manifest.mf
 # folders #
 /nbproject/
 /dist/
+/build/
