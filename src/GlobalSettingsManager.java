@@ -97,7 +97,7 @@ final class GlobalSettingsManager {
     private GlobalSettingsManager() {
     }
 
-    // The methods below are self explanatory, thier only purpose is to share
+    // The methods below are self explanatory, their only purpose is to share
     //      the values of the global variables.
     // Each method name gives a hint of which global variable is being return.
     public static final int getFrameHeight() {
