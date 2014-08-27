@@ -2,9 +2,7 @@
 /**
  * File: Main.java
  * 
- * Description: An application implementing pixel duplication and moving pen
- * algorithm applying the Bresenham algorithm. Allows user to adjust line
- * parameters such as the end points of the line and its thickness.
+ * Description: A paint-like Java application implementing Bresenham algorithm. 
  *
  * @author Ryan Gilera <jalapaomaji-github@yahoo.com>
  * @version 1.0 21 July 2014
