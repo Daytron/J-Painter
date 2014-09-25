@@ -176,8 +176,8 @@ public class MouseClickListener extends MouseAdapter {
         //      twice by now. It will now be able to draw
         //      the Drawables from previous (x,y) to this now 
         //      new position (x,y), by upating the endpoint of the 
-        //      Drawables and repaint it by 
-        //      calling the updateEndpoints(x, y) method of the canvas.
+        //      Drawables and repaint it by calling the 
+	//	updateEndpoints(x, y) method of the canvas.
         if (this.counter == 1) {
             // Grabs the location at this mouseclick
             int x = e.getX();
