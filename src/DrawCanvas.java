@@ -59,8 +59,8 @@ public class DrawCanvas extends JPanel{
         this.statusBar = new JLabel("  Ready to draw..");
         this.mousePosBar = new JLabel(" ");
         this.bufferImage = new BufferedImage(
-                GlobalSettingsManager.getCanvasWidth(),
-                GlobalSettingsManager.getCanvasHeight(),
+                GlobalSettingsManager.CANVAS_WIDTH,
+                GlobalSettingsManager.CANVAS_HEIGHT,
                 BufferedImage.TYPE_INT_ARGB);
     }
 
@@ -141,8 +141,8 @@ public class DrawCanvas extends JPanel{
             // Get the graphics instead from the bufferImage.
             graphics = this.bufferImage.getGraphics();
             // Sets the drawing area of the bufferImage.
-            graphics.fillRect(0, 0, GlobalSettingsManager.getCanvasWidth(), 
-                    GlobalSettingsManager.getCanvasHeight());
+            graphics.fillRect(0, 0, GlobalSettingsManager.CANVAS_WIDTH, 
+                    GlobalSettingsManager.CANVAS_HEIGHT);
 
             // Iterates the list of Drawables then draw it on the bufferImage.
             for (Drawable aShape : this.listOfDrawables) {

@@ -62,15 +62,15 @@ public class UserInterface implements Runnable {
         frame = new JFrame("J-Painter");
         // Sets the window frame size.
         frame.setPreferredSize(
-                new Dimension(GlobalSettingsManager.getFrameWidth(),
-                        GlobalSettingsManager.getFrameHeight()));
+                new Dimension(GlobalSettingsManager.FRAME_WIDTH,
+                        GlobalSettingsManager.FRAME_HEIGHT));
 
         // Sets the behaviour of the frame when user click close.
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         frame.setResizable(false);
         frame.setIconImage(
-                GlobalSettingsManager.getAppIcon());
+                GlobalSettingsManager.APP_ICON);
 
         // Calls the createComponents method for initialising the 
         //      UI components for the Jframe, passing the content pane 
@@ -122,7 +122,7 @@ public class UserInterface implements Runnable {
         BoxLayout statusLayout
                 = new BoxLayout(statusPanel, BoxLayout.LINE_AXIS);
         statusPanel.setLayout(statusLayout);
-        statusPanel.setMaximumSize(GlobalSettingsManager.getStatusDimension());
+        statusPanel.setMaximumSize(GlobalSettingsManager.STATUS_DIMENSION);
         statusPanel.setBorder(BorderFactory.createLoweredBevelBorder());
         // Adds the two JPanel objects to the statusPanel
         statusPanel.add(statusBar);
@@ -157,7 +157,7 @@ public class UserInterface implements Runnable {
         // FileNew menu item is for creating a new canvas to draw, 
         //      by disposing all line objects from the canvas.
         JMenuItem fileNew = new JMenuItem(
-                "New", GlobalSettingsManager.getFileNewIcon());
+                "New", GlobalSettingsManager.FILE_NEW_ICON);
         // Sets the tooltip text for FileNew.
         fileNew.setToolTipText("New Canvas");
         // Sets the keyboard shorcut for FileNew (ALT+N).
@@ -167,7 +167,7 @@ public class UserInterface implements Runnable {
 
         // FileExit menu item, that allows user to exit the application.
         JMenuItem fileExit = new JMenuItem(
-                "Exit", GlobalSettingsManager.getFileExitIcon());
+                "Exit", GlobalSettingsManager.FILE_EXIT_ICON);
         // Sets the keyboard shortcut for FileExit.
         fileExit.setMnemonic(KeyEvent.VK_X);
         // Sets the tooltip text for FileExit.
@@ -200,7 +200,7 @@ public class UserInterface implements Runnable {
 
         // The EditClear menu item for clearing the canvas.
         JMenuItem editClear = new JMenuItem(
-                "Clear Canvas", GlobalSettingsManager.getEditClearIcon());
+                "Clear Canvas", GlobalSettingsManager.EDIT_CLEAR_ICON);
         // Assign a MenuListener to implement its functionality.
         editClear.addActionListener(aMenuListener);
         // Adds the menu item to the Edit Menu.
@@ -215,7 +215,7 @@ public class UserInterface implements Runnable {
 
         // The AboutAbout menu item for the about menu.
         JMenuItem aboutAbout = new JMenuItem(
-                "About Application", GlobalSettingsManager.getAboutIcon());
+                "About Application", GlobalSettingsManager.ABOUT_ICON);
         // Sets its keyboard shortcut (ALT+A)
         aboutAbout.setMnemonic(KeyEvent.VK_A);
         // Assign the MenuListener to the menu item.
@@ -257,7 +257,7 @@ public class UserInterface implements Runnable {
         // Creates a JButton for drawing the Drawables.
         // Sets the text label, position and its tooltip helper.
         JButton pencilButton = new JButton(
-                GlobalSettingsManager.getToolDrawIcon());
+                GlobalSettingsManager.TOOL_DRAW_ICON);
         pencilButton.setText("Draw");
         pencilButton.setVerticalTextPosition(SwingConstants.BOTTOM);
         pencilButton.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -266,7 +266,7 @@ public class UserInterface implements Runnable {
         // Creates a JButton for undoing the last Drawable drawn.
         // Sets the text label, position and its tooltip helper.
         JButton undoButton = new JButton(
-                GlobalSettingsManager.getToolUndoIcon());
+                GlobalSettingsManager.TOOL_UNDO_ICON);
         undoButton.setText("Undo");
         undoButton.setVerticalTextPosition(SwingConstants.BOTTOM);
         undoButton.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -275,7 +275,7 @@ public class UserInterface implements Runnable {
         // Creates a JButton for redoing the last Drawable erased.
         // Sets the text label, position and its tooltip helper.
         JButton redoButton = new JButton(
-                GlobalSettingsManager.getToolRedoIcon());
+                GlobalSettingsManager.TOOL_REDO_ICON);
         redoButton.setText("Redo");
         redoButton.setVerticalTextPosition(SwingConstants.BOTTOM);
         redoButton.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -284,7 +284,7 @@ public class UserInterface implements Runnable {
         // Creates a JButton for clearing the canvas from all the Drawables
         //      drawn. Sets the text label, position and its tooltip helper.
         JButton clearButton = new JButton(
-                GlobalSettingsManager.getToolClearIcon());
+                GlobalSettingsManager.TOOL_CLEAR_CANVAS_ICON);
         clearButton.setText("Clear");
         clearButton.setVerticalTextPosition(SwingConstants.BOTTOM);
         clearButton.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -293,7 +293,7 @@ public class UserInterface implements Runnable {
         // Creates a JButton for launching image.
         // Sets the text label, position and its tooltip helper.
         JButton imageAddButton = new JButton(
-                GlobalSettingsManager.getToolImageIcon());
+                GlobalSettingsManager.TOOL_IMAGE_ICON);
         imageAddButton.setText("Image");
         imageAddButton.setVerticalTextPosition(SwingConstants.BOTTOM);
         imageAddButton.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -311,18 +311,18 @@ public class UserInterface implements Runnable {
         
          // Drawables buttons
         WebToggleButton drawableLineButton = new WebToggleButton(
-            GlobalSettingsManager.getToolDrawableLineIcon());
+            GlobalSettingsManager.TOOL_DRAWABLE_LINE_ICON);
         drawableLineButton.setSelected(true);
         WebToggleButton drawableCircleButton = new WebToggleButton(
-            GlobalSettingsManager.getToolDrawableCircleIcon());
+            GlobalSettingsManager.TOOL_DRAWABLE_CIRCLE_ICON);
         WebToggleButton drawableSquareButton = new WebToggleButton(
-            GlobalSettingsManager.getToolDrawableSquareIcon());
+            GlobalSettingsManager.TOOL_DRAWABLE_SQUARE_ICON);
         WebToggleButton drawableEllipseButton = new WebToggleButton(
-            GlobalSettingsManager.getToolDrawableEllipseIcon());
+            GlobalSettingsManager.TOOL_DRAWABLE_ELLIPSE_ICON);
         WebToggleButton drawableTriangleButton = new WebToggleButton (
-            GlobalSettingsManager.getToolDrawableTriangleIcon());
+            GlobalSettingsManager.TOOL_DRAWABLE_TRIANGLE_ICON);
         WebToggleButton drawableArcButton = new WebToggleButton(
-            GlobalSettingsManager.getToolDrawableArcIcon());
+            GlobalSettingsManager.TOOL_DRAWABLE_ARC_ICON);
         WebButtonGroup g1 = new WebButtonGroup ( drawableLineButton, 
                 drawableCircleButton, drawableSquareButton, 
                 drawableEllipseButton, drawableTriangleButton, 
@@ -359,7 +359,7 @@ public class UserInterface implements Runnable {
         // Creates the WebColorChooserField object for the colorpicker.
         WebColorChooserField colorChooser
                 = new WebColorChooserField(
-                        GlobalSettingsManager.getDefaultColorChooserColor());
+                        GlobalSettingsManager.COLOR_CHOOSER_DEFAULT);
         colorChooser.setOpaque(true);
         colorChooser.setEditable(false);
         colorChooser.setMinimumHeight(40);
@@ -404,11 +404,11 @@ public class UserInterface implements Runnable {
         // Sets the items (different images) for the line thickness combo box.
         Object[] items
                 = {
-                    GlobalSettingsManager.getLineThickImage0(),
-                    GlobalSettingsManager.getLineThickImage1(),
-                    GlobalSettingsManager.getLineThickImage2(),
-                    GlobalSettingsManager.getLineThickImage3(),
-                    GlobalSettingsManager.getLineThickImage4()
+                    GlobalSettingsManager.LINE_THICK_0,
+                    GlobalSettingsManager.LINE_THICK_1,
+                    GlobalSettingsManager.LINE_THICK_2,
+                    GlobalSettingsManager.LINE_THICK_3,
+                    GlobalSettingsManager.LINE_THICK_4
                 };
 
         // Creates a new WebComboBox object and 
@@ -502,7 +502,7 @@ public class UserInterface implements Runnable {
 
         // Loads the custom cursor image to a new cursor object.
         // Please refer to GlobalResourceManager for all resources.
-        Image cursor = GlobalSettingsManager.getCursorImage();
+        Image cursor = GlobalSettingsManager.CURSOR_ICON;
 
         // Creates an actionListener object for all toolbar buttons.
         ButtonListener aButtonListener = new ButtonListener(aCanvas,
