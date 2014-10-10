@@ -12,7 +12,7 @@
 hs_err_pid*
 
 
-# image files #
+# image files 
 about.png
 appIcon.png
 cursor.png
@@ -24,11 +24,12 @@ toolClear.png
 toolImage.png
 toolPencil.png
 toolRedo.png
-toolUndo.png
+toolUndo.png #
 
 # netbeans files #
 build.xml
 manifest.mf
+nbactions.xml
 
 # folders #
 /nbproject/

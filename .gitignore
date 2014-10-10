@@ -12,19 +12,19 @@
 hs_err_pid*
 
 
-# image files #
-about.png
-appIcon.png
-cursor.png
-editClear.png
-fileExit.png
-fileNew.png
-pencil3.png
-toolClear.png
-toolImage.png
-toolPencil.png
-toolRedo.png
-toolUndo.png
+# image files 
+#about.png
+#appIcon.png
+#cursor.png
+#editClear.png
+#fileExit.png
+#fileNew.png
+#pencil3.png
+#toolClear.png
+#toolImage.png
+#toolPencil.png
+#toolRedo.png
+#toolUndo.png 
 
 # netbeans files #
 build.xml
