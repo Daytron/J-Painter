@@ -4,7 +4,7 @@ JPainter
 =========
 By Ryan Gilera
 
-**J-Painter** is simple paint-like Java application that enables user to draw various lines and shapes, apply colours and thickness for each shape, uses two-type footprints or brush heads and import photos and images into the canvas.
+**J-Painter** is a simple paint-like Java application that enables user to draw various lines and shapes, apply colours and thickness for each shape, uses two-type of footprints or brush heads and import photos and images into the canvas.
 
  
 
@@ -43,7 +43,7 @@ Add these dependencies to your pom.xml
 </dependency>
 ```
 ####Global Settings
-Application's global parameters, settings and images' paths are located in the utility class, `GlobalSettingsManager`. Each path is extracted by the `ResourceLoader` class, found in `res\` folder.
+Application's global parameters, settings and images' paths are located in the utility class, `GlobalSettingsManager`. Each path is extracted by the `ResourceLoader` class, found in `src\main\java\resources\` folder.
 
 
 Feedback
