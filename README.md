@@ -1,4 +1,4 @@
-![Travis-Status](https://travis-ci.org/Daytron/J-Painter.svg?branch=master)
+[![Travis-Status](https://travis-ci.org/Daytron/J-Painter.svg?branch=master)](https://travis-ci.org/Daytron/J-Painter)
 
 JPainter 
 =========

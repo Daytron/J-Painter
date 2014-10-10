@@ -41,3 +41,4 @@ nbactions.xml
 
 # extra files #
 maven-code.txt
+*.md~
