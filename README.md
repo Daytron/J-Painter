@@ -4,7 +4,7 @@ JPainter
 =========
 By Ryan Gilera
 
-**J-Painter** is a simple paint-like Java application that enables user to draw various lines and shapes, apply colours and thickness for each shape, uses two-type of footprints or brush heads and import photos and images into the canvas.
+**J-Painter** is a simple paint-like Java application that enables user to draw various lines and shapes, apply colours and thickness for each shape, uses two types of footprints or brush heads and allows photo imports into the canvas.
 
  
 
