@@ -1,6 +1,6 @@
 [![Travis-Status](https://travis-ci.org/Daytron/J-Painter.svg?branch=master)](https://travis-ci.org/Daytron/J-Painter)
 
-JPainter 
+J-Painter 
 =========
 By Ryan Gilera
 
