@@ -1,4 +1,4 @@
-[![Travis-Status](https://travis-ci.org/Daytron/J-Painter.svg?branch=master)](https://travis-ci.org/Daytron/J-Painter)
+Build status: &nbsp; ![Travis-Status](https://travis-ci.org/Daytron/J-Painter.svg?branch=master) &nbsp;&nbsp;&nbsp;Build history: [travis-ci.org/Daytron/J-Painter](https://travis-ci.org/Daytron/J-Painter)
 
 J-Painter 
 =========
@@ -42,9 +42,17 @@ Add these dependencies to your pom.xml
     <version>1.28</version>
 </dependency>
 ```
+
+Note: Currently weblaf-complete-1.28.jar is not available in Maven Central, but you can use weblaf-core and weblaf-ui for the same effect.
 ####Global Settings
 Application's global parameters, settings and images' paths are located in the utility class, `GlobalSettingsManager`. Each path is extracted by the `ResourceLoader` class, found in `src\main\java\resources\` folder.
 
+Build
+----
+For Maven
+```
+mvn clean compile assembly:single
+```
 
 Feedback
 ----
