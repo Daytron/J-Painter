@@ -4,3 +4,10 @@ jdk:
   - oraclejdk7
   - openjdk7
 
+env:
+  global:
+      - secure: "M47BQBx4DjhL0E2OrZNAEVlSgKKNdFf/6itkgZ8QtUnMq8cZ0JiGyQ1OgITDcHKPS0B5wpI6xunhPLMI8V5E3k9pGcEOZEogtMK8HKn95gGpI8xTmx4QaxMi3XKUMzk99L+dMFFhDJTlQeTiUTVHCGfI5bgdKoczfXaqAQs/AQY="
+
+notifications:
+  email:
+    - ryangilera@gmail.com
