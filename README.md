@@ -1,4 +1,6 @@
-Build status: &nbsp; ![Travis-Status](https://travis-ci.org/Daytron/J-Painter.svg?branch=master) &nbsp;&nbsp;&nbsp;Build history: [travis-ci.org/Daytron/J-Painter](https://travis-ci.org/Daytron/J-Painter)
+Build status: &nbsp; ![Travis-Status](https://travis-ci.org/Daytron/J-Painter.svg?branch=master) &nbsp;&nbsp;&nbsp;Build history: [travis-ci.org/Daytron/J-Painter](https://travis-ci.org/Daytron/J-Painter) 
+
+Dependency status: &nbsp; [![Dependency Status](https://www.versioneye.com/user/projects/544acc5fc310f908510000d0/badge.svg?style=flat)](https://www.versioneye.com/user/projects/544acc5fc310f908510000d0)
 
 J-Painter 
 =========
