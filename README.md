@@ -1,6 +1,5 @@
-Build status: &nbsp; ![Travis-Status](https://travis-ci.org/Daytron/J-Painter.svg?branch=master) &nbsp;&nbsp;&nbsp;Build history: [travis-ci.org/Daytron/J-Painter](https://travis-ci.org/Daytron/J-Painter) 
-
-Dependency status: &nbsp; [![Dependency Status](https://www.versioneye.com/user/projects/544acc5fc310f908510000d0/badge.svg?style=flat)](https://www.versioneye.com/user/projects/544acc5fc310f908510000d0)
+Build status: &nbsp;  [![Build Status](https://travis-ci.org/Daytron/J-Painter.svg?branch=master)](https://travis-ci.org/Daytron/J-Painter)
+[![Dependency Status](https://www.versioneye.com/user/projects/544acc5fc310f908510000d0/badge.svg?style=flat)](https://www.versioneye.com/user/projects/544acc5fc310f908510000d0) [![License](http://img.shields.io/:license-mit-blue.svg)](https://raw.githubusercontent.com/Daytron/Flipit-Map-Creator/master/LICENSES/LICENSE) 
 
 J-Painter 
 =========
