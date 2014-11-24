@@ -1,8 +1,5 @@
-Build status: &nbsp;  [![Build Status](https://travis-ci.org/Daytron/J-Painter.svg?branch=master)](https://travis-ci.org/Daytron/J-Painter)
-[![Dependency Status](https://www.versioneye.com/user/projects/544acc5fc310f908510000d0/badge.svg?style=flat)](https://www.versioneye.com/user/projects/544acc5fc310f908510000d0) [![License](http://img.shields.io/:license-mit-blue.svg)](https://raw.githubusercontent.com/Daytron/Flipit-Map-Creator/master/LICENSES/LICENSE) 
+# J-Painter &nbsp;  [![Build Status](https://travis-ci.org/Daytron/J-Painter.svg?branch=master)](https://travis-ci.org/Daytron/J-Painter) [![Dependency Status](https://www.versioneye.com/user/projects/544acc5fc310f908510000d0/badge.svg?style=flat)](https://www.versioneye.com/user/projects/544acc5fc310f908510000d0) [![License](http://img.shields.io/:license-mit-blue.svg)](https://raw.githubusercontent.com/Daytron/Flipit-Map-Creator/master/LICENSES/LICENSE) 
 
-J-Painter 
-=========
 By Ryan Gilera
 
 **J-Painter** is a simple paint-like Java application that enables user to draw various lines and shapes, apply colours and thickness for each shape, uses two types of footprints or brush heads and allows photo imports into the canvas.
