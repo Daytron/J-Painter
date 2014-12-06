@@ -1,4 +1,4 @@
-package com.gilera.jpainter;
+package com.gilera.jpainter.drawables;
 
 
 /**
@@ -19,7 +19,7 @@ import java.util.List;
  *
  * @author Ryan Gilera <jalapaomaji-github@yahoo.com>
  */
-final class Footprint {
+public final class Footprint {
 
     // A static method for drawing the footprint, parent method for all
     //      sub methods called inside.

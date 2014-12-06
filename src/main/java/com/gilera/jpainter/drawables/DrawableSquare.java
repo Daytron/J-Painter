@@ -1,32 +1,29 @@
-package com.gilera.jpainter;
+package com.gilera.jpainter.drawables;
 
 
 /**
- * File: DrawableImage.java
+ * File: DrawableSquare.java
  * 
- * Description: The subclass drawing image.
+ * Description: The subclass drawing square.
  */
 import java.awt.Color;
 import java.awt.Graphics;
-import java.awt.Image;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
- * DrawableImage class
+ * DrawableSquare class
  * 
- * Purpose: Responsible for drawing the image into the JPanel (Canvas).
+ * Purpose: Responsible for drawing the square into the JPanel (Canvas).
  *
  * @author Ryan Gilera <jalapaomaji-github@yahoo.com>
  */
-public class DrawableImage extends Drawable {
-    private final Image imageLoad;
+public class DrawableSquare extends Drawable {
 
-    // Constructor - same setup as the Drawable class except for the
-    //  object variable for Image.
-    public DrawableImage(int xi, int yi, int xo, int yo, int sThick,
-            Color sColor, boolean footprint, Image loadedImage) {
+    // Constructor - same setup as the Drawable class
+    public DrawableSquare(int xi, int yi, int xo, int yo, int sThick,
+            Color sColor, boolean footprint) {
         super(xi, yi, xo, yo, sThick, sColor, footprint);
-        
-        this.imageLoad = loadedImage;
     }
 
     /**
@@ -124,11 +121,13 @@ public class DrawableImage extends Drawable {
                 xd = xm;
             }
         }
-        this.drawImageOnCanvas(graphics, xa, ya, xb, yb, xc, yc, xd, yd);
+
+        this.drawSquare(graphics, xa, ya, xb, yb, xc, yc, xd, yd);
+
     }
-    
-/**
-     * Draws image after the points limits are defined
+
+    /**
+     * Draws square after the points limits are defined
      * @param graphics Graphics object
      * @param xa x coordinate of top left of the square area
      * @param ya y coordinate of top left of the square area
@@ -139,10 +138,28 @@ public class DrawableImage extends Drawable {
      * @param xd x coordinate of lower right of the square area
      * @param yd y coordinate of lower right of the square area
      */
-    private void drawImageOnCanvas(Graphics graphics, int xa, int ya, int xb, int yb,
+    private void drawSquare(Graphics graphics, int xa, int ya, int xb, int yb,
             int xc, int yc, int xd, int yd) {
-        
-        graphics.drawImage(imageLoad, xa, ya, xd, yd, null);
-        
+
+        ArrayList<DrawableLine> square = new ArrayList<>();
+
+        // Form the square by drawing each line/side
+        square.add(new DrawableLine(xa, ya, xb, yb,
+                super.getThick(), super.getColor(), super.getFootprint()));
+
+        square.add(new DrawableLine(xb, yb, xd, yd,
+                super.getThick(), super.getColor(), super.getFootprint()));
+
+        square.add(new DrawableLine(xd, yd, xc, yc,
+                super.getThick(), super.getColor(), super.getFootprint()));
+
+        square.add(new DrawableLine(xc, yc, xa, ya,
+                super.getThick(), super.getColor(), super.getFootprint()));
+
+        // Draws square clockwise.
+        for (DrawableLine aLine : square) {
+            aLine.drawShape(graphics);
+        }
     }
+
 }

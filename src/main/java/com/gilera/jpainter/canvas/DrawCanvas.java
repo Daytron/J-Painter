@@ -1,4 +1,4 @@
-package com.gilera.jpainter;
+package com.gilera.jpainter.canvas;
 
 
 /**
@@ -7,6 +7,8 @@ package com.gilera.jpainter;
  * Description: The class responsible for drawing Drawable object on the canvas.
  * This class is subclass of the JPanel class.
  */
+import com.gilera.jpainter.data.GlobalSettingsManager;
+import com.gilera.jpainter.drawables.Drawable;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Image;

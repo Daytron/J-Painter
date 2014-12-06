@@ -1,4 +1,4 @@
-package com.gilera.jpainter;
+package com.gilera.jpainter.eventhandlers;
 
 
 /**
@@ -7,6 +7,15 @@ package com.gilera.jpainter;
  * Description: The class responsible for listening and implementing the
  * mouseclick events.
  */
+import com.gilera.jpainter.canvas.DrawCanvas;
+import com.gilera.jpainter.drawables.Drawable;
+import com.gilera.jpainter.drawables.DrawableTriangle;
+import com.gilera.jpainter.drawables.DrawableCircle;
+import com.gilera.jpainter.drawables.DrawableSquare;
+import com.gilera.jpainter.drawables.DrawableLine;
+import com.gilera.jpainter.drawables.DrawableArc;
+import com.gilera.jpainter.drawables.DrawableEllipse;
+import com.gilera.jpainter.drawables.DrawableImage;
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Image;

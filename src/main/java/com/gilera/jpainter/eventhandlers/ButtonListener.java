@@ -1,4 +1,4 @@
-package com.gilera.jpainter;
+package com.gilera.jpainter.eventhandlers;
 
 /**
  * File: ButtonListener.java
@@ -6,11 +6,13 @@ package com.gilera.jpainter;
  * Description: The class responsible for listening and implementation of any
  * action events like clicking of a button.
  */
+import com.gilera.jpainter.eventhandlers.MouseClickListener;
 import com.alee.extended.colorchooser.WebColorChooserField;
 import com.alee.global.GlobalConstants;
 import com.alee.laf.button.WebToggleButton;
 import com.alee.laf.combobox.WebComboBox;
 import com.alee.laf.filechooser.WebFileChooser;
+import com.gilera.jpainter.canvas.DrawCanvas;
 import java.awt.Cursor;
 import java.awt.Image;
 import java.awt.Point;

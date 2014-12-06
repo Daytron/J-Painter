@@ -1,4 +1,4 @@
-package com.gilera.jpainter;
+package com.gilera.jpainter.ui;
 
 
 /**
@@ -17,6 +17,11 @@ import com.alee.laf.combobox.WebComboBox;
 import com.alee.laf.label.WebLabel;
 import com.alee.laf.radiobutton.WebRadioButton;
 import com.alee.laf.toolbar.WebToolBar;
+import com.gilera.jpainter.eventhandlers.ButtonListener;
+import com.gilera.jpainter.canvas.DrawCanvas;
+import com.gilera.jpainter.data.GlobalSettingsManager;
+import com.gilera.jpainter.eventhandlers.MenuListener;
+import com.gilera.jpainter.eventhandlers.MousePositionListener;
 import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.Dimension;

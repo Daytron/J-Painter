@@ -1,4 +1,4 @@
-package com.gilera.jpainter;
+package com.gilera.jpainter.drawables;
 
 
 /**

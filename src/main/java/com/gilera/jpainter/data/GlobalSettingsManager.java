@@ -1,4 +1,4 @@
-package com.gilera.jpainter;
+package com.gilera.jpainter.data;
 
 
 /**
@@ -20,8 +20,8 @@ import resources.ResourceLoader;
  *
  * @author Ryan Gilera <jalapaomaji-github@yahoo.com>
  */
-final class GlobalSettingsManager {
-
+public final class GlobalSettingsManager {
+    
     // FRAME SIZE
     public static final int FRAME_WIDTH = 1100;
     public static final int FRAME_HEIGHT = 790;

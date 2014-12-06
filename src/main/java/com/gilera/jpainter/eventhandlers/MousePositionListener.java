@@ -1,4 +1,4 @@
-package com.gilera.jpainter;
+package com.gilera.jpainter.eventhandlers;
 
 
 /**
@@ -8,6 +8,7 @@ package com.gilera.jpainter;
  * position of the mouse at any point of the application in the MousePosBar
  * JLabel object regardless of any action.
  */
+import com.gilera.jpainter.canvas.DrawCanvas;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 

@@ -9,6 +9,7 @@ package com.gilera.jpainter;
  * @author Ryan Gilera <jalapaomaji-github@yahoo.com>
  * @version 1.0 21 July 2014
  */
+import com.gilera.jpainter.ui.UserInterface;
 import com.alee.laf.WebLookAndFeel;
 import javax.swing.SwingUtilities;
 

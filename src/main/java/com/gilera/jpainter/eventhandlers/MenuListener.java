@@ -1,4 +1,4 @@
-package com.gilera.jpainter;
+package com.gilera.jpainter.eventhandlers;
 
 
 /**
@@ -6,6 +6,7 @@ package com.gilera.jpainter;
  * 
  * Description: The class responsible for implementing the JMenu UI components.
  */
+import com.gilera.jpainter.canvas.DrawCanvas;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JFrame;
